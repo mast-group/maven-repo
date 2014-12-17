@@ -17,17 +17,17 @@ print 'processing: \n'
 for root, dirs, files in os.walk (folder):
     for filename in files:
 	if filename.endswith('.jar') == True:
-		print filename + '\n'
-        # create dependencies for pom.xml
-        f.writelines('<dependency>\n')
-        f.writelines('<groupId>' + groupID + '</groupId>\n')
-        f.writelines('<artifactId>' + filename[:-4] + '</artifactId>\n')
-        f.writelines('<version>' + rm_ver + '</version>\n')
-        f.writelines('</dependency>\n\n')
+	  print filename + '\n'
+	  # create dependencies for pom.xml
+	  f.writelines('<dependency>\n')
+	  f.writelines('<groupId>' + groupID + '</groupId>\n')
+	  f.writelines('<artifactId>' + filename[:-4] + '</artifactId>\n')
+	  f.writelines('<version>' + rm_ver + '</version>\n')
+	  f.writelines('</dependency>\n\n')
 
-        # create dependencies for pom.xml
-        command = 'mvn install:install-file -DgroupId=' + groupID + ' -DartifactId='+ filename[:-4] + ' -Dversion=' + rm_ver + ' -Dfile=' + os.path.join(root,filename) + ' -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true'
-        f_commands.write(command + '\n')
+	  # create dependencies for pom.xml
+	  command = 'mvn install:install-file -DgroupId=' + groupID + ' -DartifactId='+ filename[:-4] + ' -Dversion=' + rm_ver + ' -Dfile=' + os.path.join(root,filename) + ' -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true'
+	  f_commands.write(command + '\n')
 
 
 f.close()

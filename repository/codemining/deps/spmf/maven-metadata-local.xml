@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>codemining.deps</groupId>
+  <artifactId>spmf</artifactId>
+  <versioning>
+    <release>0.96q</release>
+    <versions>
+      <version>0.96q</version>
+    </versions>
+    <lastUpdated>20141217152318</lastUpdated>
+  </versioning>
+</metadata>

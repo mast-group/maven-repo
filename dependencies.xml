@@ -42,13 +42,13 @@
 
 <dependency>
 <groupId>codemining.deps</groupId>
-<artifactId>com.threecrickets.jygments</artifactId>
+<artifactId>com.fasterxml.jackson</artifactId>
 <version>1.0</version>
 </dependency>
 
 <dependency>
 <groupId>codemining.deps</groupId>
-<artifactId>com.fasterxml.jackson</artifactId>
+<artifactId>com.threecrickets.jygments</artifactId>
 <version>1.0</version>
 </dependency>
 
@@ -60,13 +60,19 @@
 
 <dependency>
 <groupId>codemining.deps</groupId>
+<artifactId>pydev.parser</artifactId>
+<version>1.0</version>
+</dependency>
+
+<dependency>
+<groupId>codemining.deps</groupId>
 <artifactId>pydev.shared_core</artifactId>
 <version>1.0</version>
 </dependency>
 
 <dependency>
 <groupId>codemining.deps</groupId>
-<artifactId>pydev.parser</artifactId>
+<artifactId>spmf</artifactId>
 <version>1.0</version>
 </dependency>
 
