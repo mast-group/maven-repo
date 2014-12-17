@@ -21,3 +21,7 @@ To add a new jar:
  
  That's all!
  
+More info
+---------
+http://riaconnection.wordpress.com/2012/08/01/create-your-own-github-maven-repository/
+https://bitbucket.org/neil_rubens/rapidminer_maven-repo/wiki/Home
