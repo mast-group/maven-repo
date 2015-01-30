@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>codemining.deps</groupId>
   <artifactId>spmf</artifactId>
-  <version>0.96q</version>
+  <version>0.96r2</version>
   <description>POM was created from install:install-file</description>
 </project>
