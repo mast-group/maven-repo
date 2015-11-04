@@ -10,4 +10,3 @@ mvn install:install-file -DgroupId=codemining.deps -DartifactId=com.threecricket
 mvn install:install-file -DgroupId=codemining.deps -DartifactId=pydev.core -Dversion=1.0 -Dfile=jars/pydev/pydev.core.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true
 mvn install:install-file -DgroupId=codemining.deps -DartifactId=pydev.parser -Dversion=1.0 -Dfile=jars/pydev/pydev.parser.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true
 mvn install:install-file -DgroupId=codemining.deps -DartifactId=pydev.shared_core -Dversion=1.0 -Dfile=jars/pydev/pydev.shared_core.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true
-mvn install:install-file -DgroupId=codemining.deps -DartifactId=spmf -Dversion=1.0 -Dfile=jars/spmf/spmf.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true

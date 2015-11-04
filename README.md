@@ -9,16 +9,18 @@ To add a new jar:
  
  2. Add jar to maven repo:
  
- mvn install:install-file -DgroupId=codemining.deps -DartifactId=$depname -Dversion=1.0 -Dfile=$path -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true
+ mvn install:install-file -DgroupId=codemining.deps -DartifactId=$depname -Dversion=$version -Dfile=$path -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository  -DcreateChecksum=true
  
- (optionally add -Dsources=$sourcepath to include sources)
+ (optionally add -Dsources=$sourcepath to include sources) 
+ 
+ Note that the default $version for all packages except spmf is 1.0
 
  3. Update relevant pom.xml:
  
  &lt;dependency&gt; <br/>
  &lt;groupId&gt;codemining.deps&lt;groupId&gt; <br/>
  &lt;artifactId>$depname&lt;artifactId&gt; <br/>
- &lt;version&gt;1.0&lt;version&gt; <br/>
+ &lt;version&gt;$version&lt;version&gt; <br/>
  &lt;/dependency&gt; <br/>
  
  That's all!

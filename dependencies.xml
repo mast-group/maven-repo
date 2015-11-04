@@ -73,6 +73,6 @@
 <dependency>
 <groupId>codemining.deps</groupId>
 <artifactId>spmf</artifactId>
-<version>1.0</version>
+<version>0.96r13</version>
 </dependency>
 
