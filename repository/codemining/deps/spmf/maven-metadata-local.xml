@@ -3,10 +3,11 @@
   <groupId>codemining.deps</groupId>
   <artifactId>spmf</artifactId>
   <versioning>
-    <release>0.96r13</release>
+    <release>0.98c</release>
     <versions>
       <version>0.96r13</version>
+      <version>0.98c</version>
     </versions>
-    <lastUpdated>20150326150304</lastUpdated>
+    <lastUpdated>20160201111204</lastUpdated>
   </versioning>
 </metadata>
